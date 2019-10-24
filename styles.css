@@ -1,0 +1,59 @@
+body{
+  margin: 0;
+}
+
+.bg-greyish{
+  background-color: #F3F2EE;
+  overflow: hidden;
+}
+
+.FullPage{
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 100%;
+}
+
+
+.navbar ul{
+  background-color: #9A3324;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.navbar li{
+  float: right;
+  border-left: 2px solid white;
+}
+
+.navbar img{
+  float: left;
+  background: white;
+  width: 20%;
+  padding: 0 1%;
+}
+
+.navbar li a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 80px;
+  text-decoration: none;
+  font-size: 2.6rem;
+}
+
+.navbar li a:hover{
+  background-color: white;
+  color: #9A3324;
+}
+
+.main{
+  width: 90%;
+  height: 900px;
+  margin: 3% 5%;
+    box-shadow: 3px 3px 20px black;
+}
