@@ -1,23 +1,21 @@
-body{
+body {
   margin: 0;
 }
 
-.bg-greyish{
+.bg-greyish {
   background-color: #F3F2EE;
   overflow: hidden;
 }
 
-.FullPage{
+.FullPage {
   position: absolute;
-  z-index: -1;
   top: 0;
   left: 0;
   width: 100%;
   min-height: 100%;
 }
 
-
-.navbar ul{
+.navbar ul {
   background-color: #9A3324;
   list-style-type: none;
   margin: 0;
@@ -25,19 +23,19 @@ body{
   overflow: hidden;
 }
 
-.navbar li{
+.navbar li {
   float: right;
   border-left: 2px solid white;
 }
 
-.navbar a img{
+.navbar a img {
   float: left;
   background: white;
   width: 25%;
   padding: 0 1%;
 }
 
-.navbar li a{
+.navbar li a {
   display: block;
   color: white;
   text-align: center;
@@ -46,31 +44,93 @@ body{
   font-size: 2.6rem;
 }
 
-.navbar li a:hover{
+.navbar li a:hover {
   background-color: white;
   color: #9A3324;
 }
 
-.main{
+.main {
   width: 90%;
-  height: 900px;
   margin: 3% 5%;
-    box-shadow: 3px 3px 20px black;
-    background-color: #9A3324;
+  box-shadow: 3px 3px 20px black;
+  background-color: #9A3324;
 }
 
-
-h1{
+h1 {
   font-size: 4em;
   text-align: center;
   color: white;
   padding-top: 10px;
+  text-decoration: underline;
 }
 
-p{
+p {
   font-size: 2em;
   text-align: center;
   color: white;
- 
+  margin: 0;
+}
 
+.flexy {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+/* ---------------------------------------------- */
+/* --Child_Pages------------------------------------------- */
+/* ---------------------------------------------- */
+.about_child {
+  width: 33%;
+}
+
+.about_child h6 {
+  font-size: 3.6rem;
+  font-weight: bold;
+  color: rgb(179, 179, 179);
+  text-shadow: 2px 2px 4px black;
+}
+.about_child span p{
+  font-size: 3em;
+  text-align: left;
+}
+
+.about_child span {
+  display: table-row;
+  white-space: nowrap;
+}
+
+.about_child img{
+  width: 100%;
+}
+
+#Age h6{
+  margin: 20px 10% 0;;
+}
+#Age p{
+  margin: 0 15%;
+}
+
+#Wish h6{
+  margin: 80px 15% 0;
+}
+#Wish p {
+  margin: 0 0 0 25%;
+  white-space: normal;
+}
+
+#Siblings h6{
+  margin: 120px 0 0;
+}
+
+#Siblings p{
+  margin: 0 10%;
+}
+
+#child_Location h6 {
+  margin: 100px 10% 0;
+}
+#child_Location p {
+  margin: 0 20%;
 }
