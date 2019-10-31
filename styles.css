@@ -64,7 +64,12 @@ h1 {
   text-decoration: underline;
 }
 
+<<<<<<< HEAD
 p {
+=======
+.pone {
+p{
+>>>>>>> cd94fa6adbf879b88347bba7e3f05edf81e6acea
   font-size: 2em;
   text-align: center;
   color: white;
