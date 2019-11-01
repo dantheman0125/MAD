@@ -1,23 +1,11 @@
-body{
+body {
   margin: 0;
 }
 
-.bg-greyish{
-  background-color: #F3F2EE;
-  overflow: hidden;
-}
-
-.FullPage{
-  position: absolute;
-  z-index: -1;
-  top: 0;
-  left: 0;
-  width: 100%;
-  min-height: 100%;
-}
-
-
-.navbar ul{
+/* ---------------------------------------------- */
+/* --Navbar-------------------------------------- */
+/* ---------------------------------------------- */
+.navbar ul {
   background-color: #9A3324;
   list-style-type: none;
   margin: 0;
@@ -25,19 +13,19 @@ body{
   overflow: hidden;
 }
 
-.navbar li{
+.navbar li {
   float: right;
   border-left: 2px solid white;
 }
 
-.navbar a img{
+.navbar a img {
   float: left;
   background: white;
-  width: 25%;
+  width: 20%;
   padding: 0 1%;
 }
 
-.navbar li a{
+.navbar li a {
   display: block;
   color: white;
   text-align: center;
@@ -46,31 +34,188 @@ body{
   font-size: 2.6rem;
 }
 
-.navbar li a:hover{
+.navbar li a:hover {
   background-color: white;
   color: #9A3324;
 }
 
-.main{
-  width: 90%;
-  height: 900px;
+/* ---------------------------------------------- */
+/* --Multiple Pages------------------------------ */
+/* ---------------------------------------------- */
+.bg-greyish {
+  background-color: #F3F2EE;
+  overflow: hidden;
+}
+
+.FullPage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 100%;
+}
+
+.main {
+  width: 80%;
   margin: 3% 5%;
+  padding: 50px 5% 100px;
   box-shadow: 3px 3px 20px black;
   background-color: #9A3324;
 }
 
-
-h1{
+h1 {
   font-size: 4em;
   text-align: center;
   color: white;
-  padding-top: 10px;
+  text-decoration: underline;
 }
 
-.pone {
+h2 {
+  font-size: 3.4em;
+  text-align: center;
+  color: white;
+  text-decoration: underline;
+}
+
+p {
   font-size: 2em;
   text-align: center;
   color: white;
- 
+  margin: 0;
+}
 
+.flexy {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.no-padding {
+  padding: 50px 0;
+  width: 90%;
+}
+
+
+/* ---------------------------------------------- */
+/* --About--------------------------------------- */
+/* ---------------------------------------------- */
+
+
+/* ---------------------------------------------- */
+/* --Index--------------------------------------- */
+/* ---------------------------------------------- */
+
+
+/* ---------------------------------------------- */
+/* --Home-------------------------------------- */
+/* ---------------------------------------------- */
+
+
+/* ---------------------------------------------- */
+/* --Child_Pages--------------------------------- */
+/* ---------------------------------------------- */
+.about_child {
+  width: 33%;
+}
+
+.about_child h6 {
+  font-size: 3.6rem;
+  font-weight: bold;
+  color: rgb(179, 179, 179);
+  text-shadow: 2px 2px 4px black;
+}
+
+.about_child span p {
+  font-size: 3em;
+  text-align: left;
+}
+
+.about_child span {
+  display: table-row;
+  white-space: nowrap;
+}
+
+.about_child img {
+  width: 100%;
+}
+
+#Age h6 {
+  margin: 20px 10% 0;
+  ;
+}
+
+#Age p {
+  margin: 0 15%;
+}
+
+#Wish h6 {
+  margin: 80px 15% 0;
+}
+
+#Wish p {
+  margin: 0 0 0 25%;
+  white-space: normal;
+}
+
+#Siblings h6 {
+  margin: 120px 0 0;
+}
+
+#Siblings p {
+  margin: 0 10%;
+}
+
+#child_Location h6 {
+  margin: 100px 10% 0;
+}
+
+#child_Location p {
+  margin: 0 20%;
+}
+
+.Story {
+  padding: 50px 5% 100px;
+}
+
+/* ---------------------------------------------- */
+/* --Donate_Page--------------------------------- */
+/* ---------------------------------------------- */
+.Values {
+  width: 49%;
+  text-align: center;
+}
+
+.Values button, .CustomBut {
+  width: 50%;
+  font-size: 2.5rem;
+  display: block;
+  cursor: pointer;
+  padding: 15px 24px;
+  margin: 20px 25%;
+  background: rgb(255, 0, 0);
+  background: linear-gradient(90deg, #ff0000 0%, #700d00 50%, #ff0000 100%) var(--x, 0)/ 200%;
+  border: 2px solid white;
+  color: white;
+  transition: ease 0.5s;
+}
+
+.Values button:hover, .CustomBut:hover{
+  --x: 100%;
+  padding: 20px 24px;
+}
+
+#CustomVal{
+  width: 20%;
+  height: 80px;
+  font-size: 69px;
+  background: beige;
+  text-align: center;
+  margin: 10px 0 0 40%;
+  border-width: thick;
+}
+
+.Custom_Value form p{
+  float: right;
+  margin: 20px 30% 0 0;
+  font-size: 60px;
 }

@@ -1,30 +1,76 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <link rel="stylesheet" href="../styles.css">
-    <meta charset="utf-8">
-    <title>ICW</title>
-  </head>
-  <body>
-    <div class="FullPage bg-greyish">
-      <div class="navbar">
-        <a href="home.html">
-          <img src="..\img\logo.svg" alt="the logo">
-        </a>
-        <ul>
-          <li>
-            <a href="donate.html">Donate</a>
-          </li>
-          <li>
-            <a href="about.html">About</a>
-          </li>
-          <li>
-            <a href="home.html">Home</a>
-          </li>
-        </ul>
+
+<head>
+  <link rel="stylesheet" href="../styles.css">
+  <meta charset="utf-8">
+  <title>ICW</title>
+</head>
+
+<body>
+  <div class="FullPage bg-greyish">
+    <div class="navbar">
+      <a href="home.html">
+        <img src="..\img\logo.svg" alt="the logo">
+      </a>
+      <ul>
+        <li>
+          <a href="donate.html">Donate</a>
+        </li>
+        <li>
+          <a href="about.html">About</a>
+        </li>
+        <li>
+          <a href="home.html">Home</a>
+        </li>
+      </ul>
+    </div>
+    <div class="main">
+      <h1>We are so happy to see that you want to donate</h1>
+      <p>
+        Please Select a value you would like to donate
+      </p>
+      <div class="flexy">
+        <div class="Values">
+          <button type="button" onclick="Donate(10)">10 NOK</button>
+          <button type="button" onclick="Donate(20)">20 NOK</button>
+          <button type="button" onclick="Donate(50)">50 NOK</button>
+          <button type="button" onclick="Donate(100)">100 NOK</button>
+          <button type="button" onclick="Donate(200)">200 NOK</button>
+        </div>
+        <div class="Values">
+          <button type="button" onclick="Donate(500)">500 NOK</button>
+          <button type="button" onclick="Donate(1000)">1.000 NOK</button>
+          <button type="button" onclick="Donate(2000)">2.000 NOK</button>
+          <button type="button" onclick="Donate(5000)">5.000 NOK</button>
+          <button type="button" onclick="Donate(1000000)">1.000.000 NOK</button>
+        </div>
       </div>
-      <div class="main">
+      <div class="Custom_Value">
+        <p>
+          If you want to donate a specific amount you can
+          write it down below and press donate
+        </p>
+        <form>
+          <input id="CustomVal" type="number" name="Custom" value="42"><p>NOK</p>
+          <br>
+          <input class="CustomBut"onclick="Donate()" type="button" value="Donate">
       </div>
     </div>
-  </body>
+  </div>
+  <script type="text/javascript">
+    function Donate(x){
+      if (x === undefined) {
+        x = document.getElementById("CustomVal").value;
+        alert("Thank you for donating this insane amount, " + x + " NOK");
+      } else if (x === 1000000) {
+        alert("Thank you for donating 1 Million NOK\nYou will be noted in our books.\nUnless you are doing this as a PR stunt, still thanks for your money");
+        }
+        else {
+          alert("Thank you for donating " + x + " NOK");
+        }
+      };
+  </script>
+</body>
+
 </html>
