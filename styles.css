@@ -63,6 +63,11 @@ body {
   background-color: #9A3324;
 }
 
+div.Main_no_padding{
+  padding: 0;
+  width: 90%;
+}
+
 h1 {
   font-size: 4em;
   text-align: center;
@@ -109,6 +114,49 @@ p {
 /* ---------------------------------------------- */
 /* --Home-------------------------------------- */
 /* ---------------------------------------------- */
+
+.childbox {
+  border: white;
+  border-style: solid;
+  border-width: thick;
+  border-bottom: none;
+}
+
+.childbox:last-child {
+  border-bottom: solid white;
+  border-width: thick;
+}
+
+.short_story {
+  width: 70%;
+  padding: 2% 3% 1%;
+}
+
+.short_story p {
+  text-align: left;
+}
+
+.short_story a {
+  float: right;
+  color:white;
+  border-style: solid;
+  border-color: white;
+  padding: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+.short_story a:hover {
+  color: #9A3324;
+  background-color: white;
+}
+.selfie {
+  width: 20%;
+}
+
+.selfie img {
+  min-height: 300px;
+  width: 100%;
+}
 
 
 /* ---------------------------------------------- */
