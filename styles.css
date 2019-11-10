@@ -108,10 +108,25 @@ p {
  margin: 3% 25%;
 }
 
-/* ---------------------------------------------- */
-/* --Index--------------------------------------- */
-/* ---------------------------------------------- */
-
+.Contact{
+  margin: 10px 10% -50px;
+}
+.Contact_info{
+  font-size: 1.4rem;
+  margin: 0 2%;
+}
+.Contact_Available{
+  font-size: 0.9rem;
+  font-style: italic;
+  align-self: center;
+  margin: 0 2%;
+}
+.ICWteam h3{
+  font-size: 2.4rem;
+  text-align: center;
+  color: white;
+  margin-bottom: -10px;
+}
 
 /* ---------------------------------------------- */
 /* --Home-------------------------------------- */
