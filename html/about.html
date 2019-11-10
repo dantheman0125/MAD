@@ -55,11 +55,16 @@
           };
           var map = new google.maps.Map(mapCanvas, mapOptions);
         }
-      </script>
+      </script> <!-- The Google Maps only shows for approx 1 sec, because the script beneath don't
+      have a Google <API-key (YOUR_KEY) which costs 0.50$. -->
+
       <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
       <footer class="footer">
         <p>The ICW Team</p>
-        <p>Contact info: <a href="mailto:ICWteam@example.com">ICWteam@example.com</a></p>
+        <br>
+        <p>Contact info:</p>
+        <p>Email: <a href="mailto:ICWteam@example.com">ICWteam@example.com</a></p>
+        <p>Phone number: <a href="+4712345678">+4712345678</a></p>
       </footer>
 
     </div>
